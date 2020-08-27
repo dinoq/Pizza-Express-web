@@ -1,0 +1,48 @@
+
+
+.red{
+    color: red;
+}
+
+.white{
+    color: white !important;
+}
+
+.container-fluid{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/*
+Page...
+*/
+nav{
+    height: 10vh !important;
+}
+.nav-link{
+    color: rgb(255, 255, 255) !important;
+}
+
+.nav-item:hover, .nav-item .active{
+    background-color: rgb(177, 47, 47) !important;
+    border-radius: .5rem !important;
+}
+
+.bg_img {
+    background-image: url("https://res.cloudinary.com/it-s-my-life-a-s/w_768,c_fill,q_auto,f_auto/auto-mapping-folder/2019/10/shutterstock_312535718.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    position: relative;
+}
+
+.bg_img #darken{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+}
